@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    margin: auto;
+    width: 1440px;
+    padding: 25px;
+}
+
+.widgets {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+}
+
+.widgets-text {
+    font-size: 50px;
+}
+
+.widgetsCards {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widgetsCards__card {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(blue,darkblue);
+}
+.widgetsCards__card-text{
+    font-size: 40px;
+    color: gray;
+}
+.contact{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+}
+.contact-text{
+    font-size: 50px;
+}
