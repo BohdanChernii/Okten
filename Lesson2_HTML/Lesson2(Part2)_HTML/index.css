@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+
+}
+.page {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 25px 25px;
+    border: 1px black solid;
+    margin: 1.5%;
+    width: 420px;
+    height: 550px;
+}
+
+.cards__card-title {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.cards__card-description {
+    margin-top: 50px;
+    font-size: 25px;
+    line-height: 50px;
+}
+.cards__card-button{
+    height: 100px;
+    width: 300px;
+    margin-top: 50px;
+    font-size: 40px;
+    outline: none;
+    border: 1px solid black;
+}
