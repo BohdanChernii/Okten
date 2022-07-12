@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.page {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    background: #D9D9D9;
+}
+
+.card-a {
+    width: 100%;
+}
+
+.cards-main {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cards-main > .card {
+    width: 32%;
+    flex-grow: 1;
+    height: 250px;
+}
+
+.card-h {
+    width: 24%;
+    height: 510px;
+    flex-grow: 1;
+    margin-top:10px;
+    margin-left:10px ;
+}
+@media screen and (max-width: 1000px) {
+    .cards-main {
+        width: 100%;
+    }
+    .cards-main > .card {
+        width: 25%;
+        flex-grow: 1;
+        height: 150px;
+    }
+    .card-h {
+        width: 24%;
+        height: 200px;
+        flex-grow: 1;
+        margin-top:10px;
+        margin-left:10px ;
+    }
+}
